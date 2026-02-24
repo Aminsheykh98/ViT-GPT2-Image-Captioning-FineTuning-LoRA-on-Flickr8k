@@ -4,7 +4,7 @@ import re
 
 # 1. Load the data
 # Replace 'metrics.csv' with your actual filename
-df = pd.read_csv('D:\\University\\PhD\\KNTU\\Math4AI\\Project\\save_dir\\2026-02-17-15-17-51\\history.csv')
+df = pd.read_csv('save_dir\\2026-02-17-15-17-51\\history.csv')
 
 # 2. Clean the 'rouge' column 
 # It converts "tensor(0.4851)" -> 0.4851
@@ -41,4 +41,5 @@ fig.delaxes(axes[5])
 
 plt.tight_layout()
 plt.show()
+
 
